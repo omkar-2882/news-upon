@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "totalResults": 34,
+  "articles": [
+    {
+      "source": { "id": null, "name": "Hindustan Times" },
+      "author": "HT Tech",
+      "title": "Solar storm today! Earth will be hit by a massive CME cloud, warns NOAA; geomagnetic storm likely - HT Tech",
+      "description": "NOAA forecasters have revealed that a solar storm can occur later in the day as a coronal mass ejection (CME) cloud is expected to deliver a blow to the Earth, sparking a geomagnetic storm and auroras too. Check details.",
+      "url": "https://tech.hindustantimes.com/tech/news/solar-storm-today-earth-will-be-hit-by-a-massive-cme-cloud-warns-noaa-geomagnetic-storm-likely-71688200196677.html",
+      "urlToImage": "https://images.hindustantimes.com/tech/img/2023/07/01/1600x900/sun-11030_1631065589823_1688200230569.jpg",
+      "publishedAt": "2023-07-01T08:34:18Z",
+      "content": "This week's solar storm prediction models had earlier claimed that today, July 1, was likely to be the worst affected by solar activities. The prediction is likely to come true as a coronal mass ejec… [+1953 chars]"
+    },
+    {
+      "source": { "id": null, "name": "OpIndia" },
+      "author": "OpIndia Staff",
+      "title": "Gujarat High Court denies bail to ‘activist’ Teesta Setalvad in fabrication of evidence case, orders her to surrender immediately - OpIndia",
+      "description": "Gujarat High Court rejected the regular bail application of ‘activist’ Teesta Setalvad and ordered her to “surrender immediately.” | OpIndia News",
+      "url": "https://www.opindia.com/2023/07/gujarat-high-court-denies-bail-to-teesta-setalvad-orders-immediate-surrender/",
+      "urlToImage": "https://www.opindia.com/wp-content/uploads/2022/06/teesta.jpg",
+      "publishedAt": "2023-07-01T08:11:44Z",
+      "content": "On Saturday, July 1, the Gujarat High Court rejected the regular bail application of activist Teesta Setalvad and ordered her to surrender immediately. The Gujarat High Court ruling came with regard … [+2702 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Financial Express" },
+      "author": "The Financial Express",
+      "title": "What GST has meant for India - The Financial Express",
+      "description": null,
+      "url": "https://www.financialexpress.com/economy/what-gst-has-meant-for-india/3150971/",
+      "urlToImage": null,
+      "publishedAt": "2023-07-01T07:50:30Z",
+      "content": null
+    },
+    {
+      "source": { "id": null, "name": "Rediff.com" },
+      "author": "PTI",
+      "title": "Monsoon session to be held from July 20 to August 11 - Rediff.com",
+      "description": "The monsoon session is expected to commence in the old Parliament building and later move to the new building, sources said. The new building was inaugurated by Modi on May 28.",
+      "url": "https://www.rediff.com/news/report/monsoon-session-to-be-held-from-july-20-to-august-11/20230701.htm",
+      "urlToImage": "https://im.rediff.com/news/2020/sep/14parlimanet-building.jpg",
+      "publishedAt": "2023-07-01T07:48:15Z",
+      "content": "Parliament's monsoon session will start on July 20 and continue till August 11, Parliamentary Affairs Minister Pralhad Joshi said on Saturday.\r\nMaking the announcement, he urged political parties to … [+1501 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Moneycontrol" },
+      "author": "Hiral Thanawala",
+      "title": "HDFC-HDFC Bank merger | All you need to know about the impact on depositors - Moneycontrol",
+      "description": "Post-merger of HDFC-HDFC Bank, depositors would have several queries relating to terms and interest rates of existing deposits with HDFC, renewal of FDs, terms for premature withdrawal, submitting Form 15 G/H, TDS certificates, and more. Here are answers to s…",
+      "url": "https://www.moneycontrol.com/news/business/personal-finance/hdfc-hdfc-bank-merger-all-you-need-to-know-about-the-impact-on-depositors-10887131.html",
+      "urlToImage": "https://images.moneycontrol.com/static-mcnews/2022/04/HDFC-Merger-770x433.jpg",
+      "publishedAt": "2023-07-01T07:36:32Z",
+      "content": "The merger of the country's largest private sector bank, HDFC Bank, and mortgage lender, Housing Development Finance Corporation (HDFC), is effective July 1. Notably, the twin entities first announce… [+5248 chars]"
+    }
+  ]
+}
