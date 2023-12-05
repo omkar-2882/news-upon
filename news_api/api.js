@@ -41,4 +41,4 @@ const fetchCategoryNews = async (country, category, page, pageSize) => {
 
 // fetchCategoryNews("in", "general", 1, 5);
 
-
+export { fetchCategoryNews };

@@ -5,31 +5,11 @@ import Navbar from './components/Navbar';
 import News from './components/News';
 import { BrowserRouter as Router, Switch, Route, } from "react-router-dom";
 import LoadingBar from 'react-top-loading-bar'
-import { fetchCategoryNews } from '../../news_api/api';
 
 const App = () => {
   const pageSize = 100
 
   const [progress, setProgress] = useState(0)
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        await fetchCategoryNews('in', 'general', 1, pageSize);
-        await fetchCategoryNews('in', 'business', 1, pageSize);
-        await fetchCategoryNews('in', 'health', 1, pageSize);
-        await fetchCategoryNews('in', 'science', 1, pageSize);
-        await fetchCategoryNews('in', 'technology', 1, pageSize);
-        await fetchCategoryNews('in', 'sports', 1, pageSize);
-        console.log('API data fetched successfully');
-      } catch (error) {
-        console.error('Error fetching API data:', error);
-      }
-    };
-
-    fetchData();
-  }, []);
-
 
   return (
     <div>

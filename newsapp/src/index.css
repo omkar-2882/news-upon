@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: khaki;
+  background-color: rgb(245, 227, 199);
 }
 
 code {
@@ -24,3 +24,7 @@ code {
 #nav-ul li a.active{
 	color: white;
 }
+
+/* .heading {
+  color: red;
+} */

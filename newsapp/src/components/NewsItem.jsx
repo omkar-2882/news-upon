@@ -1,9 +1,10 @@
 import React from "react";
 import "./NewsItem.css"
+import notFoundimg from "../notfound.jpg"
 
 const NewsItem = (props) => {
   let { title, description, imgUrl, newsUrl, author, date, source } = props;
-  let altimg = "./altimg.jpg";
+  const img = imgUrl!=null ? imgUrl : notFoundimg;
   if (description && description.length > 100) {
     description = description.slice(0, 100);
   }
@@ -32,7 +33,7 @@ const NewsItem = (props) => {
         <div
           className="card-img"
           style={{
-            backgroundImage: `url(${imgUrl})`
+            backgroundImage: `url(${img})`
           }}
         ></div>
         <div className="card-body">

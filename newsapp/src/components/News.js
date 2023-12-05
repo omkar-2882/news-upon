@@ -101,7 +101,7 @@ const News = (props) => {
 
   return (
     <>
-      <h1 style={{ fontWeight: "bold" }} className="text-center p-4">
+      <h1 style={{ fontWeight: "bold" }} className="text-danger text-center p-4">
         Top {capitalizeFirstLetter(props.category)} Headlines
       </h1>
       {loading && <Spinner />}

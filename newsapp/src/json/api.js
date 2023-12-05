@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const fetch = require('node-fetch')
+// const fetch = require('node-fetch')
 
 const fetchCategoryNews = async (country, category, page, pageSize) => {
   const apiKey = "d865168ba8a84445b05c22ce257bf397"; // Replace with your actual API key
@@ -25,7 +25,8 @@ const fetchCategoryNews = async (country, category, page, pageSize) => {
       fs.writeFileSync(filePath, jsonData);
 
       return data;
-    } else {
+    }
+    else {
       // throw new Error(data.message || 'Failed to fetch news');
       console.log(data.message);
     }
@@ -35,6 +36,12 @@ const fetchCategoryNews = async (country, category, page, pageSize) => {
   }
 };
 
-fetchCategoryNews("in", "general", 1, 5);
+fetchCategoryNews("in", "general", 1, 100);
+fetchCategoryNews("in", "business", 1, 100);
+fetchCategoryNews("in", "entertainment", 1, 100);
+fetchCategoryNews("in", "health", 1, 100);
+fetchCategoryNews("in", "science", 1, 100);
+fetchCategoryNews("in", "sports", 1, 100);
+fetchCategoryNews("in", "technology", 1, 100);
 
 
